@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.fathermon.soulclash'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.fathermon.soulclash'
+        minSdk 24
+        targetSdk 35
+        versionCode 18
+        versionName '1.8'
+    }
+}
